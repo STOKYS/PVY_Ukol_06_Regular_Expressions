@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: Roboto;
+    font-weight: 100;
+    color: white;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    height: 100%;
+}
+
+main {
+    border: 1px solid rgb(180, 180, 180);
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 30px;
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    padding: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+#btn {
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    font-weight: 600;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: color 0.2s ease, backgroud-color .8s ease, border-color .5s ease;
+}
+
+button:hover {
+    color: rgb(22, 22, 22);
+    background-color: rgb(30, 69, 255);
+    border-color: rgb(30, 69, 255);
+}
+
+input {
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(30, 69, 255);
+    border-radius: 15px;
+    margin-bottom: 8px;
+    transition: background-color 0.2s ease, font-weight 0.2s ease;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(50, 50, 50);
+    font-weight: 500;
+}
+
+label {
+    padding-left: 10px;
+    width: 100%;
+}
+
+img {
+    width: 100px;
+    float: right;
+}
+
+.name{
+    width: 50%;
+}
+
+h2 {
+    color: white;
+    padding-top: 35px !important;
+    float: left;
+    text-align: center;
+    width: 70%;
+}
+
+.profile {
+    width: 90%;
+    height: 100px;
+}
+
+.profile>* {
+    display: block;
+}
+
+#btn {
+    /*display: none;*/
+}
+
+#log {
+    display: none;
+    margin: 20px;
+}
+
+#sign {
+    margin: 20px;
+    display: none;
+}
+
+#btns{
+    display: none;
+    margin: 20px;
+}
