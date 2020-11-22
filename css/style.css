@@ -123,3 +123,25 @@ h2 {
     display: none;
     margin: 20px;
 }
+
+#errors{
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255,0,0,0.2);
+}
+
+#errors>hr{
+    border: 0px;
+    border-bottom: 1px dashed red;
+    padding-top: 5px;
+}
+
+#errors>p{
+    padding-top: 10px;
+}
