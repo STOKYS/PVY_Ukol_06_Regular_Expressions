@@ -5,8 +5,12 @@ $("#btn>button").on("click", function(){
 })
 
 $("#back").on("click", function(){
+    back()
+})
+
+function back(){
     document.getElementById("log").style.display = "none"
     document.getElementById("sign").style.display = "none"
     document.getElementById("btns").style.display = "none"
     document.getElementById("btn").style.display = "block"
-})
+}
