@@ -19,7 +19,7 @@ main {
     width: 25%;
     height: 100%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -84,13 +84,9 @@ img {
     float: right;
 }
 
-.name{
-    width: 50%;
-}
-
 h2 {
     color: white;
-    padding-top: 35px !important;
+    padding-top: 20px !important;
     float: left;
     text-align: center;
     width: 70%;
@@ -146,9 +142,9 @@ h2 {
 
 #success{
     display: none;
-    padding: 20px;
+    padding-top: 0px;
     width: 20%;
-    height: 10%;
+    height: 8%;
     border: 2px solid white;
     border-radius: 20px;
     position: absolute;
@@ -158,7 +154,46 @@ h2 {
 }
 
 #success>h3{
+    margin: 8px;
     font-size: 50px;
     text-align: center;
 }
 
+#cookiesAlert{
+    border-radius: 10px;
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    left: 35%;
+    text-align: center;
+    border: solid white 1px;
+    border-bottom: 0px;
+    border-top: 0px;
+    top: 250px;
+    background-color: rgb(22,22,22);
+}
+
+#cookiesAlert>h3{
+    font-size: 30px;
+}
+
+#cookiesAlert>p{
+    padding: 25px;
+    text-align: justify;
+}
+
+.info{
+    font-weight: 300;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+}
+
+.cookies{
+    position: absolute;
+    float: left;
+}
+
+.cookies>button{
+    padding: 5px;
+    font-size: 15px;
+}
